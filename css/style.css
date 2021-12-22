@@ -33,6 +33,13 @@
         li {
             list-style-type: circle;
             margin: 1rem;
+            background-color: coral;
+            transition: all 2s eease;
+        }
+        
+        li:hover {
+            background-color: lawngreen;
+            width: 299px;
         }
         
         h2 {
